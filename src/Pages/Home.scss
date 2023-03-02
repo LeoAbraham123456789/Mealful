@@ -1,0 +1,56 @@
+.App {
+    width: 100%;
+    height: 100%;
+    .topdiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .image{
+            width: 100%;
+            height: 100%;
+            flex: 1;
+        }
+  .Comp {
+      flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .get_btn {
+        margin: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      background: #20d77f;
+      padding: 18px;
+      width: 360px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 10px;
+      cursor: pointer;
+      align-items: center;
+      border: none;
+    }
+    .show_btn{
+   
+        margin: 10px;
+      font-weight: bold;
+      background: black;
+      padding: 18px;
+      width: 360px;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      align-items: center;
+      border: none;
+    
+    }
+  }
+}
+}
