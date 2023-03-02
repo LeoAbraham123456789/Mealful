@@ -12,7 +12,6 @@ import {
 import Navigationbar from "../Components/Navigationbar";
 function Home() {
   const [date3, setDate3]=useState('');
-  const time5 = [];
   const [data10, setData10] = useState([
     {
       time: "9am to 12am",
@@ -35,7 +34,6 @@ function Home() {
       count: 0,
     },
   ]);
-  const [data8, setData8] = useState([]);
   const [loading0, setLoading0] = useState(false);
   const [loading, setLoading] = useState(false);
   const [data4, setData4] = useState([]);
